@@ -1,0 +1,19 @@
+body {
+    font-family: Playfair;
+    
+}
+
+.mainnavlink  {
+    
+    text-align: center;
+    font-weight: bold;
+    color: #e17055;
+    font-size: 50px;
+    display: flex; 
+   
+}
+
+.mainnavlink a:hover {
+    text-decoration: none;
+    color: #e17055;
+}
