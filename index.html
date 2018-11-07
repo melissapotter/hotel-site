@@ -15,12 +15,14 @@
 <body>
 
 
-  <center> <a href="#" class="mainnavlink"> L'Hotel Paris </a> </center>
-
+  <center> <a href="#" class="mainnavlink"> L'Hotel Paris </a>
+    <h6 class="address">1143 Rue de Chance Paris, France 75008</h6>
+  </center>
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">L'Hotel Paris</a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -29,9 +31,7 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
+
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
         </li>
@@ -40,15 +40,31 @@
           Room Options
         </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Room 1</a>
+            <a class="dropdown-item" href="#">Room 2</a>
+            <a class="dropdown-item" href="#">Room 3</a>
+            <a class="dropdown-item" href="#">Room 4</a>
           </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
         </li>
       </ul>
     </div>
   </nav>
 
+  <div class="hero-image">
+    <div class="hero-text">
+      <h5 id="subtitle"></h5>
+      <h1> Welcome to L'Hotel Paris</h1>
+      <h6>Please tell us your name:</h6>
+
+      <input id="inputName1">
+      <button type="button" onclick="myFunction()">Submit</button>
+    </div>
+  </div>
+
+  <!--
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -57,13 +73,13 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-70 h-70" src="https://www.eventinc.at/system/provider_pictures/pictures/000/028/789/cropped/location_palais_coburg_wien_innere_stadt_blauer_salon.jpg" alt="First slide">
+        <img class="d-block w-100 h-30" src="http://palais-coburg.com/content/uploads/2014/03/EVENTS_Prunkr%C3%A4ume_Marie-Antionette_Sektion2_01.jpg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-70 h-70" src="http://palais-coburg.com/content/uploads/2014/03/EVENTS_Prunkr%C3%A4ume_SpiegelSalon_Sektion2_01.jpg" alt="Second slide">
+        <img class="d-block w-100 h-30" src="http://palais-coburg.com/content/uploads/2014/03/EVENTS_Prunkr%C3%A4ume_SpiegelSalon_Sektion2_01.jpg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-70 h-70" src="http://palais-coburg.com/content/uploads/2014/03/EVENTS_Prunkr%C3%A4ume_Gr%C3%BCnerSalon_Sektion2_01.jpg" alt="Third slide">
+        <img class="d-block w-100 h-30" src="http://palais-coburg.com/content/uploads/2014/03/EVENTS_Prunkr%C3%A4ume_Gr%C3%BCnerSalon_Sektion2_01.jpg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,28 +90,129 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  </div> -->
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header center-block" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+           <h2>Featured Rooms</h2>
+           
+        </button>
+        </h5>
+      </div>
+
+
+      
+        <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" style="position: relative">
+          <div class="card-body">
+            <p>
+              <h5 id="roominfo">All of our Featured Rooms include Free Breakfast and Unlimited WiFi.</h5>
+              <br>
+              <div class="row">
+                <!--div 1 -->
+                <div class="col-3">
+                  <div class="card">
+                    <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_210_Sektion6_01-1280x720.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <h5 class="roomTitle">Room 1</h5>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                  </div>
+                </div>
+                <!--div 2 -->
+                <div class="col-3">
+                  <div class="card">
+                    <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_307_Sektion4_01-1280x720.jpg">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <h5 class="roomTitle">Room 2</h5>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                  </div>
+                </div>
+                <!--div 3 -->
+                <div class="col-3">
+                  <div class="card">
+                    <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_303_Sektion2_01-1280x720.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <h5 class="roomTitle">Room 3</h5>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Book</a>
+                    </div>
+                  </div>
+                </div>
+                <!--div 4 -->
+                <div class="col-3">
+                  <div class="card">
+                    <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_202_Sektion6_01-1280x720.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <h5 class="roomTitle">Room 4</h5>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </p>
+            <a href="#" class="btn btn-primary">Book</a>
+
+            </div>
+            </div>
+            </div>
+            </div>
+
+
+          </div>
+        </div>
+      
+    </div>
   </div>
 
-</body>
+
+  <!-- END OF feat ROOMs -->
+
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header center-block" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+           <h2>Book Your Stay</h2>
+           
+        </button>
+        </h5>
+      </div>
+      
+       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" style="position: relative">
+          <div class="card-body">
+            <p>
+              <h5 id="roominfo">Reserve a Room</h5>
+              <br>
+              <div class="row">
+          
+   
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
+        raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script>
+    function myFunction() {
+      var inputname1, welcomemessage;
+      var inputName1 = document.getElementById("inputName1").value;
+      document.getElementById("subtitle").innerHTML = "Bonjour, " + inputName1 + "!";
+    }
+  </script>
 
 
 
 
 
 
+  <footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
+  </footer>
 
 
 
