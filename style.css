@@ -36,7 +36,13 @@ body {
     
 }
 
+.btn-link {
+    color: #0a3d62;
+}
 
+.btn-link:hover {
+    text-decoration: none;
+}
 
 .carousel {
     height: 400px;
