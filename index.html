@@ -103,96 +103,81 @@
       </div>
 
 
-      
-        <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" style="position: relative">
-          <div class="card-body">
-            <p>
-              <h5 id="roominfo">All of our Featured Rooms include Free Breakfast and Unlimited WiFi.</h5>
-              <br>
-              <div class="row">
-                <!--div 1 -->
-                <div class="col-3">
-                  <div class="card">
-                    <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_210_Sektion6_01-1280x720.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">
-                        <h5 class="roomTitle">Room 1</h5>Price: $100/night, Double Bed, Standing Shower, Free WiFi.</p>
-                      <a href="#" class="btn btn-primary">Book</a>
-                    </div>
-                  </div>
-                </div>
-                <!--div 2 -->
-                <div class="col-3">
-                  <div class="card">
-                    <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_307_Sektion4_01-1280x720.jpg">
-                    <div class="card-body">
-                      <p class="card-text">
-                        <h5 class="roomTitle">Room 2</h5>Price $120/night, Double Bed, Bathtub, Free WiFi, Breakfast Included.</p>
-                      <a href="#" class="btn btn-primary">Book</a>
-                    </div>
-                  </div>
-                </div>
-                <!--div 3 -->
-                <div class="col-3">
-                  <div class="card">
-                    <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_303_Sektion2_01-1280x720.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">
-                        <h5 class="roomTitle">Room 3</h5>Price $150/night, Two Twin Beds, Bathtub, Free Wi-Fi.</p>
-                      <a href="#" class="btn btn-primary">Book</a>
-                    </div>
-                  </div>
-                </div>
-                <!--div 4 -->
-                <div class="col-3">
-                  <div class="card">
-                    <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_202_Sektion6_01-1280x720.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">
-                        <h5 class="roomTitle">Room 4</h5>Price $160/night, One King Bed, Bathtub, Free WiFi, Breakfast Included.</p>
-            </p>
-            <a href="#" class="btn btn-primary">Book</a>
 
-            </div>
-            </div>
-            </div>
-            </div>
-
+      <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" style="position: relative">
+        <div class="card-body">
+          <p>
+            <h5 id="roominfo">All of our Featured Rooms include Free Breakfast and Unlimited WiFi.</h5>
+            <br>
+            <div class="row">
+              <!--div 1 -->
+              <div class="col-3">
+                <div class="card">
+                  <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_210_Sektion6_01-1280x720.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <h5 class="roomTitle">Room 1</h5>Price: $100/night, Double Bed, Standing Shower, Free WiFi.</p>
+                    <button onclick="btn1()" class="btn btn-primary">Book</button>
+                  </div>
+                </div>
+              </div>
+              <!--div 2 -->
+              <div class="col-3">
+                <div class="card">
+                  <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_307_Sektion4_01-1280x720.jpg">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <h5 class="roomTitle">Room 2</h5>Price $120/night, Double Bed, Bathtub, Free WiFi, Breakfast Included.</p>
+                    <button onclick="btn2()" class="btn btn-primary">Book</button>
+                  </div>
+                </div>
+              </div>
+              <!--div 3 -->
+              <div class="col-3">
+                <div class="card">
+                  <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_303_Sektion2_01-1280x720.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <h5 class="roomTitle">Room 3</h5>Price $150/night, Two Twin Beds, Bathtub, Free Wi-Fi.</p>
+                    <button onclick="btn3()" class="btn btn-primary">Book</button>
+                  </div>
+                </div>
+              </div>
+              <!--div 4 -->
+              <div class="col-3">
+                <div class="card">
+                  <img class="card-img-top" src="http://palais-coburg.com/content/uploads/2014/04/RESIDENZ_Residenz_202_Sektion6_01-1280x720.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <h5 class="roomTitle">Room 4</h5>Price $160/night, One King Bed, Bathtub, Free WiFi, Breakfast Included.</p>
+          </p>
+          <button onclick="btn4()" class="btn btn-primary">Book</button>
 
           </div>
+          </div>
+          </div>
+          
+            <div class="container">
+
+
+
+    <p id="confirm"></p>
+   
+
+  </div>
+          </div>
+
+
         </div>
-      
+      </div>
+
     </div>
   </div>
 
 
   <!-- END OF feat ROOMs -->
 
-  <div class="accordion" id="accordionExample">
-    <div class="card">
-      <div class="card-header center-block" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-           <h2>Book Your Stay</h2>
-           
-        </button>
-        </h5>
-      </div>
-      
-       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" style="position: relative">
-          <div class="card-body">
-            <p>
-              <h5 id="roominfo">Reserve a Room</h5>
-              <br>
-              <div class="row">
-          
-   
-       <script src="hotel.js"></script> 
-       
-      </div>
-    </div>
-  </div>
-  </div>
+
 
 
   <script>
@@ -200,6 +185,51 @@
       var inputname1, welcomemessage;
       var inputName1 = document.getElementById("inputName1").value;
       document.getElementById("subtitle").innerHTML = "Bonjour, " + inputName1 + "!";
+    }
+
+
+    function btn1() {
+      var txt;
+      if (confirm("Would you like to Book Room #1?")) {
+        txt = "Thank you for booking Room #1! Confirmation #: 1DRZDGHNB";
+      }
+      else {
+    txt = "Please select the room you would like to book.";
+}
+      document.getElementById("confirm").innerHTML = txt;
+    }
+
+    function btn2() {
+      var txt;
+      if (confirm("Would you like to Book Room #2?")) {
+        txt = "Thank you for booking Room #2! Confirmation #: 2DRZDGHNB";
+      }
+      else {
+    txt = "Please select the room you would like to book.";
+}
+      document.getElementById("confirm").innerHTML = txt;
+    }
+
+    function btn3() {
+      var txt;
+      if (confirm("Would you like to Book Room #3?")) {
+        txt = "Thank you for booking Room #3! Confirmation #: 3DRZDGHNB";
+      }
+      else {
+   txt = "Please select the room you would like to book.";
+}
+      document.getElementById("confirm").innerHTML = txt;
+    }
+
+    function btn4() {
+      var txt;
+      if (confirm("Would you like to Book Room #4?")) {
+        txt = "Thank you for booking Room #4! Confirmation #: 4DRZDGHNB";
+      }
+      else {
+    txt = "Please select the room you would like to book.";
+}
+      document.getElementById("confirm").innerHTML = txt;
     }
   </script>
 
