@@ -1,1 +1,1 @@
-The objective of this project is to create an html site and incorporate DOM. 
+The objective of this project is to create an html site to book a hotel room and incorporate DOM. 
